@@ -5,14 +5,21 @@ public class Atividade_5_Jogo_de_Adivinhacao {
         // Cria um Scanner chamado "sc"
         Scanner sc = new Scanner(System.in);
 
-        // Cria uma variável chamada "num" com valor 0
+        // Criação da variável chamada "num" com valor 0 e das variáveis "min" e "max",
+        // elas definem o alcance da aleatoriedade
         int num = 0;
+        int min = 1;
+        int max = 100;
+
+        // Criação da variável "nun_al" (número aleatório) que contém um cálculo
+        // que resulta num número "aleatório"
+        int num_al = (int) (Math.random() * (max - min + 1) + min);
 
         // Pedido de input
         System.out.println("Bem vindo ao Jogo de Adivinhação Com Nome Nada Genêrico!\n" + "Digite um número de 1 a 100 e tente acertar o número escolhido: ");
 
         // Laço de repetição que insere o input na variável "num" e verifica qual é o número digitado
-        // enquanto "num" for diferente de 26
+        // enquanto "num" for diferente de "num_al"
         do {
             num = sc.nextInt();
             if (num == 13) {
@@ -28,7 +35,7 @@ public class Atividade_5_Jogo_de_Adivinhacao {
             } else {
                 System.out.println("Errrrrrrrrrrrou! Tenta de novo");
             }
-        } while (num != 26);
+        } while (num != num_al);
 
         // Mensagem final quando o laço é enfim parado
         System.out.println("\nParabéns! Você acertou, o número é " + num + "!");
