@@ -8,7 +8,7 @@ public class Atividade_4_Validacao_de_Entrada {
         // Cria uma variável chamada "id" com valor 0
         double id = 0.0;
 
-        // Laço de repetição que ficará ligado enquanto o valor de "id" for mair que 0
+        // Laço de repetição que ficará ligado enquanto o valor de "id" for menor que 0
         do {
             System.out.println("Digite sua idade(anos): ");
             id = entrada.nextDouble();
