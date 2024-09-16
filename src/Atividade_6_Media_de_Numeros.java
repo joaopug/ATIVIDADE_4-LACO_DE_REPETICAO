@@ -27,7 +27,7 @@ public class Atividade_6_Media_de_Numeros {
         } while (i != 0);
 
         // Criação da variável média que contém o cálculo da "soma" dividido pelo "m"
-        double media = (soma/m);
+        double media = (soma / m);
 
         // Mensagem final exibindo a média dos números dados
         System.out.println("A média dos números dados fica " + media + ".");

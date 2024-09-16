@@ -25,8 +25,8 @@ public class Exemplo_Cleiton {
         }
 
         System.out.println("O nome do time A: " + timeA + "\n");
-        System.out.println("\n" + "Os jogadores do time A: " + timePlayersA[1]+"," + timePlayersA[2]+"," + timePlayersA[3]+"," + timePlayersA[4]+"," + timePlayersA[5]+" e " + timePlayersA[6]+".");
+        System.out.println("\n" + "Os jogadores do time A: " + timePlayersA[1] + "," + timePlayersA[2] + "," + timePlayersA[3] + "," + timePlayersA[4] + "," + timePlayersA[5] + " e " + timePlayersA[6] + ".");
         System.out.println("O nome do time B: " + timeB + "\n");
-        System.out.println("\n" + "Os jogadores do time B: " + timePlayersB[1]+"," + timePlayersB[2]+"," + timePlayersB[3]+"," + timePlayersB[4]+"," + timePlayersB[5]+" e " + timePlayersB[6]+".");
+        System.out.println("\n" + "Os jogadores do time B: " + timePlayersB[1] + "," + timePlayersB[2] + "," + timePlayersB[3] + "," + timePlayersB[4] + "," + timePlayersB[5] + " e " + timePlayersB[6] + ".");
     }
 }
