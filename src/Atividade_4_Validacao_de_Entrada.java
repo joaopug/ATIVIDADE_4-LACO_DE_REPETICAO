@@ -6,12 +6,17 @@ public class Atividade_4_Validacao_de_Entrada {
         Scanner entrada = new Scanner(System.in);
 
         // Cria uma variável chamada "id" com valor 0
-        int id = 0;
+        double id = 0.0;
 
         // Laço de repetição que ficará ligado enquanto o valor de "id" for mair que 0
         do {
-            System.out.println("Digite sua idade: ");
-            id = entrada.nextInt();
-        } while (id > 0);
+            System.out.println("Digite sua idade(anos): ");
+            id = entrada.nextDouble();
+            if (id <= 0) {
+                System.out.println("Outra idade, essa é inválida!");
+            } else {
+                System.out.println("Idade válida, muito bem!");
+            }
+        } while (id <= 0);
     }
 }
