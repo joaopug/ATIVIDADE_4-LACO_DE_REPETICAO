@@ -1,11 +1,10 @@
-import javax.xml.transform.Source;
 import java.util.Scanner;
 
 public class Atividade_7_4_While {
     public static void main(String[] args) {
         char memes = 'S';
-        int num1 = 0;
-        int num2 = 0;
+        int num1;
+        int num2;
         Scanner sc = new Scanner(System.in);
         System.out.println("Calculadora de Adição");
 
